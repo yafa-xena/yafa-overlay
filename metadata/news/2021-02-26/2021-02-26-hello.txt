@@ -1,0 +1,11 @@
+Title: Hello
+Author: Yafa-xena <i@yafa.moe>
+Content-Type: text/plain
+Posted: 2021-02-26
+Revision: 1
+News-Item-Format: 1.0
+
+
+Hello World!
+
+

@@ -1,0 +1,40 @@
+* Yafa's Gentoo Overlay
+
+
+** Description
+
+The current stage is only for learning and testing.
+
+
+** How to use
+
+
+Use [[https://wiki.gentoo.org/wiki/Eselect/Repository][eselect-repository]] install and configuration this overlay:
+
+At first we need install eselect-repository modules:
+#+BEGIN_SRC shell
+emerge --ask app-eselect/eselect-repository
+#+END_SRC
+
+
+*** Add yafa-overlay repositories:
+#+BEGIN_SRC shell
+eselect repository add yafa-overlay git https://github.com/yafa-xena/yafa-overlay
+#+END_SRC
+
+*** Sync yafa-overlay contents
+
+#+BEGIN_SRC shell
+emaint sync --repo yafa-overlay
+#+END_SRC
+
+
+
+** Disable yafa-overlay and remove contents
+
+If you want to disable yafa-overlay and delete all contents, you can execute:
+
+#+BEGIN_SRC shell
+eselect repository remove -f yafa-overlay
+#+END_SRC
+

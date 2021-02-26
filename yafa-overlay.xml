@@ -1,0 +1,11 @@
+<repositories encoding="unicode" version="1.1">
+  <repo priority="50" quality="experimental">
+    <name>yafa-overlay</name>
+    <description>yafa-overlay</description>
+    <owner>
+      <email>i@yafa.moe</email>
+      <name>Yafa Xena</name>
+    </owner>
+    <source type="git">https://github.com/yafa-xena/yafa-overlay.git</source>
+  </repo>
+</repositories>
