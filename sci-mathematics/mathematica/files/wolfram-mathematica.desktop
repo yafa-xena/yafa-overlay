@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=mathematica
+Type=Application
+Comment=
+Exec=/usr/bin/mathematica %F
+Icon=mathematica
+Categories=Physics;Science;Engineering;2DGraphics;Graphics;
